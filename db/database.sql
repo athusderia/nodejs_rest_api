@@ -2,7 +2,7 @@ CREATE DATABASE IF NOT EXISTS companydb;
 
 USE companydb;
 
-CREATE TABLE employee(
+CREATE TABLE employees(
     id INT(11) NOT NULL AUTO_INCREMENT,
     name VARCHAR(45) DEFAULT NULL,
     salary INT(5) DEFAULT NULL,
