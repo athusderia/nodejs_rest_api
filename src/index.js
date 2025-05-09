@@ -7,7 +7,7 @@ const port = 12345
 
 app.use(express.json())
 
-app.use(employeesRoutes)
+app.use('/api',employeesRoutes)
 app.use(indexRoutes)
 
 app.listen(port)
